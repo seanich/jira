@@ -13,6 +13,7 @@ jobs:
             apk add --no-cache \
               musl-dev \
               python-dev \
+              libffi-dev \
               gcc \
               py-pip \
               curl \
