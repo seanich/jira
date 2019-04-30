@@ -9,8 +9,9 @@ jobs:
       - setup_remote_docker
       - run:
           name: Install dependencies
-          command: |
+          command: &deps |
             apk add --no-cache \
+              musl-dev \
               python-dev \
               gcc \
               py-pip \
@@ -37,15 +38,7 @@ jobs:
       - setup_remote_docker
       - run:
           name: Install dependencies
-          command: |
-            apk add --no-cache \
-              python-dev \
-              gcc \
-              py-pip \
-              curl \
-              curl-dev
-            pip install \
-              docker-compose
+          command: *deps
       - run:
           name: Build Development Images
           command: |
@@ -70,15 +63,7 @@ jobs:
       - setup_remote_docker
       - run:
           name: Install dependencies
-          command: |
-            apk add --no-cache \
-              python-dev \
-              gcc \
-              py-pip \
-              curl \
-              curl-dev
-            pip install \
-              docker-compose
+          command: *deps
       - run:
           name: Build Docker Release Images
           command: |
