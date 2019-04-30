@@ -27,13 +27,7 @@ function pushImage() {
 
 pushImage latest $PUSH_REPOSITORY
 pushImage $PUSH_VERSION $PUSH_REPOSITORY
-pushImage latest.de $PUSH_REPOSITORY
-pushImage $PUSH_VERSION.de $PUSH_REPOSITORY
 pushImage core $PUSH_REPOSITORY
 pushImage core.$PUSH_VERSION $PUSH_REPOSITORY
-pushImage core.de $PUSH_REPOSITORY
-pushImage core.$PUSH_VERSION.de $PUSH_REPOSITORY
 pushImage servicedesk $PUSH_REPOSITORY
 pushImage servicedesk.$PUSH_SERVICE_DESK_VERSION $PUSH_REPOSITORY
-pushImage servicedesk.de $PUSH_REPOSITORY
-pushImage servicedesk.$PUSH_SERVICE_DESK_VERSION.de $PUSH_REPOSITORY
