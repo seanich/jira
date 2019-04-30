@@ -2,7 +2,7 @@ version: '3'
 
 services:
   jira:
-    image: teamatldocker/jira
+    image: seanich/jira
     networks:
       - jiranet
     ports:

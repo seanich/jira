@@ -4,7 +4,7 @@ services:
   jira:
     depends_on:
       - postgresql
-    image: teamatldocker/jira
+    image: seanich/jira
     networks:
       - jiranet
     volumes:

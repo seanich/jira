@@ -33,5 +33,5 @@ Before Submitting A Bug Report:
 Build the image:
 
 ~~~~
-$ docker build -t teamatldocker/jira .
+$ docker build -t seanich/jira .
 ~~~~
