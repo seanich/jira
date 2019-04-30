@@ -37,6 +37,7 @@ jobs:
           name: Install dependencies
           command: |
             apk add --no-cache \
+              gcc \
               py-pip \
               curl \
               curl-dev
@@ -68,6 +69,7 @@ jobs:
           name: Install dependencies
           command: |
             apk add --no-cache \
+              gcc \
               py-pip \
               curl \
               curl-dev
