@@ -11,6 +11,7 @@ jobs:
           name: Install dependencies
           command: &deps |
             apk add --no-cache \
+              make \
               musl-dev \
               python-dev \
               libffi-dev \
