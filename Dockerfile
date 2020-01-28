@@ -2,7 +2,7 @@ FROM adoptopenjdk/openjdk8-openj9:alpine-jre
 # image contains glibc
 
 ARG JIRA_PRODUCT=jira-software
-ARG JIRA_VERSION=8.4.0
+ARG JIRA_VERSION=8.6.1
 
 # Image build date set by build system
 ARG BUILD_DATE=undefined

@@ -3,6 +3,6 @@
 #------------------
 # CONTAINER VARIABLES
 #------------------
-export JIRA_VERSION=8.4.0
+export JIRA_VERSION=8.6.1
 export JIRA_SERVICE_DESK_VERSION=4.1.0
 export JIRA_DEVELOPMENT_TAG=development

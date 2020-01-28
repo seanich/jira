@@ -9,9 +9,9 @@ Run Jira Core, Jira Software, or Jira Service Desk in a Docker container.
 
 | Product |Version | Tags  | Dockerfile |
 |---------|--------|-------|------------|
-| Jira Software | 8.4.0 | 8.4.0, latest, latest.de | [Dockerfile](https://github.com/teamatldocker/jira/blob/master/Dockerfile) |
+| Jira Software | 8.6.1 | 8.6.1, latest, latest.de | [Dockerfile](https://github.com/teamatldocker/jira/blob/master/Dockerfile) |
 | Jira Service Desk | 4.1.0 | servicedesk, servicedesk.4.1.0, servicedesk.de, servicedesk.4.1.0.de | [Dockerfile](https://github.com/teamatldocker/jira/blob/master/Dockerfile) |
-| Jira Core | 8.4.0 | core, core.8.4.0, core.de, core.8.4.0.de | [Dockerfile](https://github.com/teamatldocker/jira/blob/master/Dockerfile) |
+| Jira Core | 8.6.1 | core, core.8.6.1, core.de, core.8.6.1.de | [Dockerfile](https://github.com/teamatldocker/jira/blob/master/Dockerfile) |
 
 > On every release, the oldest and the newest tags are rebuild.
 
